@@ -1,0 +1,163 @@
+.admin-posts-page .rating-wrap-top {
+	width: 270px;	
+}
+
+.admin-posts-list-wrap {
+	width:  100%;  
+} 
+
+.admin-posts-line {
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+.admin-posts-line {
+	display: flex;
+	position: relative;
+	padding: 0 0 0 30px;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: background 300ms ease;
+}
+
+.admin-posts-line:hover {
+	background: #e9fdf8;
+}
+
+
+.admin-posts-line:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	width: 90%;
+	height: 1px;
+	background:#f1f4fa; 
+}
+
+.admin-posts-line:hover:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 100%;
+	background: #1adcaf; 
+}
+
+.admin-posts-line:first-child:hover:before {
+	display: none;
+} 
+.admin-posts-line:first-child:hover {
+	background: none;
+} 
+
+.admin-posts-line span {
+	display: block;
+	font-size: 13px;
+	line-height: 24px;
+	color: #343b43;
+}
+
+.admin-posts-line:first-child span {
+	color: #92a8c5;
+}
+
+.admin-posts-item {
+	padding: 14px 0;
+	width: 85%;
+}
+
+.admin-posts-item:first-child {
+	width: 15%;
+}
+
+
+.admin-posts-page .admin-panel-wrap .mCSB_scrollTools_vertical {
+    right: 10px;
+}
+
+
+.popup.popup-admin-posts {
+	max-width: 990px;
+}
+
+.popup.popup-admin-posts .form-item--textarea   {
+	max-width: 100%;
+	margin-bottom: 25px;
+} 
+
+.popup-admin-posts .admin-posts-title {
+	margin-bottom: 10px;
+}
+
+.popup-admin-posts .admin-posts-title span {
+	font-size: 13px;
+	line-height: 24px;
+	color: #92a8c5;	
+}
+
+.popup-admin-posts .admin-posts-item p,
+.popup-admin-posts .admin-posts-item span,
+.popup-admin-posts .admin-posts-title span.name {
+	font-size: 15px;
+	line-height: 24px;
+	color: #343b43;
+}
+
+.popup-admin-posts .admin-posts-item {
+	margin-bottom: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 100%;
+	box-shadow: 0 0 0 1px #d9e6f3;
+}
+
+.popup-admin-posts .form-item-checkbox label {
+	font-size: 13px;
+}
+
+.popup-admin-posts .column {
+	justify-content: space-between;
+}
+
+.popup-admin-posts .column-item:last-child {
+	max-width: 270px;
+	width: 100%;
+}
+
+
+.admin-nav__item span.num {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    display: block;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: #fd4059;
+}
+
+ 
+
+
+
+
+@media(max-width: 768px){
+
+	.admin-posts-item {
+		padding: 14px 0;
+		width: 70%;
+	}
+
+	.admin-posts-item:first-child {
+		width: 30%;
+	}
+
+}

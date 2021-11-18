@@ -1,0 +1,432 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>forum</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	
+	<link href="css/admin-panel.css" rel="stylesheet" type="text/css" /> 
+	<link href="css/admin-posts.css" rel="stylesheet" type="text/css" /> 
+	
+	
+	
+	<link href="css/main.min.css" rel="stylesheet" type="text/css" /> 
+	<link href="css/your-training.css" rel="stylesheet" type="text/css" />
+	
+	<link href="css/signals-page.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>			
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>		
+	<![endif]-->	
+</head>
+
+<body> 
+	<div class="wrapper forum-page">
+		<div class="layout-wrap">
+			<div class="menu">
+				<a href="#" class="logo">
+					<img src="img/logo.png" alt=""> 
+				</a>
+				<div class="nav"> 
+					<span class="nav__mob-btn"></span>
+					<ul class="nav__list">
+						<li class="nav__item  active">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-1.png" alt=""></span>
+								<span class="nav-title">Форум</span>
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-2.png" alt=""></span>
+								<span class="nav-title">Обучение</span>
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-3.png" alt=""></span>
+								<span class="nav-title">Аналитика</span>
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-4.png" alt=""></span>
+								<span class="nav-title">Котировки</span>
+							</a>
+						</li> 
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-5.png" alt=""></span>
+								<span class="nav-title">Мероприятия</span>
+							</a>
+						</li>  	
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-6.png" alt=""></span>
+								<span class="nav-title">Обратная связь</span>
+							</a>
+						</li> 
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-7.png" alt=""></span>
+								<span class="nav-title">Отзывы</span>
+							</a>
+						</li> 					
+					</ul> 
+				</div>
+				<div class="soc"> 
+					<div class="soc-list">
+						<a href="#" class="soc-item soc-item-f" target="_blank"> </a>		
+						<a href="#" class="soc-item soc-item-vk" target="_blank"> </a>	
+						<a href="#" class="soc-item soc-item-you" target="_blank"> </a>	
+						<a href="#" class="soc-item soc-item-inst" target="_blank"> </a>
+					</div>
+				</div>
+			</div>
+			<div class="layout-content">
+				<div class="layout-content--top">
+					<div class="column">
+						<div class="column-item">
+							<div class="back-wrap">
+								<a href="#" class="back"></a>
+								<span>Форум участников клуба Феникс</span>
+							</div>
+						</div>
+						<div class="column-item">
+							<div class="slider-info">
+								<span>50%</span>
+							</div>
+							<div class="profile-acc-wrap js-profile">
+								<div class="profile-acc-name">
+									<span>Василий Иванов</span>
+								</div>
+								<div class="profile-acc-icn">
+									<img src="img/profile-acc-icn.jpg" alt="">
+								</div>
+
+								<span class="num">4</span>
+
+								<ul class="nav-private">
+									<li>
+										<a href="#">
+											<span>Личный кабинет</span> 
+										</a>
+										<a href="#">
+											<span>Мои курсы</span>
+											<span class="num">2</span>
+										</a>
+										<a href="#">
+											<span>Настройки</span>
+										</a>
+										<a href="#">
+											<span>Сообщения на форуме</span>
+											<span class="num">2</span>
+										</a>
+										<a href="#">
+											<span>Выйти</span>
+										</a>
+									</li>
+								</ul>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<div class="back-wrap back-wrap--mob">
+					<a href="#" class="back"></a>
+					<span>Форум участников клуба Феникс</span>
+				</div>				
+				<div class="layout-content-block">
+					<div class="topic-forum">
+						<div class="layout-content-title">
+							Название темы форума
+						</div>	
+					</div>
+				</div>
+				<div class="nav-fixed">
+					<ul class="nav__list">
+						<li class="nav__item  ">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-1.png" alt="">
+								<img class="block-img-active" src="img/icn-menu-1-a.png" alt=""></span>
+								<span class="nav-title">Форум</span>
+							</a>
+						</li>
+						<li class="nav__item active">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-2.png" alt="">
+								<img class="block-img-active" src="img/icn-menu-2-a.png" alt=""></span>
+								<span class="nav-title">Oбучение</span>
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-3.png" alt="">
+								<img class="block-img-active" src="img/icn-menu-3-a.png" alt=""></span>
+								<span class="nav-title">Аналитика</span>
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-4.png" alt="">
+								<img class="block-img-active" src="img/icn-menu-4-a.png" alt=""></span>
+								<span class="nav-title">Котировки</span>
+							</a>
+						</li> 
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<span class="block-img"><img src="img/icn-menu-5.png" alt="">
+								<img class="block-img-active" src="img/icn-menu-5-a.png" alt=""></span>
+								<span class="nav-title">Мероприятия</span>
+							</a>
+						</li>  			
+					</ul> 	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="overlay    ">
+		<div class="popup popup-login ">
+			<div class="popup-close"></div> 
+			<div class="popup-title">Вход в аккаунт</div>
+			<div class="form-wrap">
+				<form action="">  
+					<div class="form-block">			
+						<div class="form-item error">
+							<input type="text" class="form-input" required placeholder="E-mail">
+							<span class="error">Введен некорректный e-mail</span>
+							<span class="error-img"> </span>
+							<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+						</div> 
+						<div class="form-item correct">
+							<input type="password" class="form-input form-input-pass" required placeholder="Пароль">
+							<span class="error">Введен некорректный Пароль</span>
+							<span class="error-img"> </span>
+							<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+						</div> 						
+	
+						<a href="#" class="form-item-link">Забыли пароль?</a>
+						<div class="form-item form-item-submit">
+							<button  type="submit" value=""  >войти</button>
+						</div>
+						<div class="form-bottom-wrap">
+							<span>У вас еще нет аккаунта?</span>
+							<a href="#" class="form-item-link">Регистрация</a>
+						</div>
+					</div>			
+				</form>	
+			</div>
+		</div>
+	
+		<div class="popup popup-registration  ">
+			<div class="popup-close"></div> 
+			<div class="popup-title">Регистрация</div>
+			<div class="form-wrap">
+				<form action="">  
+					<div class="form-block">			
+						<div class="form-item error">
+							<input type="text" class="form-input" required placeholder="E-mail">
+							<span class="error">Введен некорректный e-mail</span>
+							<span class="error-img"> </span>
+							<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+						</div> 
+						<div class="form-item correct">
+							<input type="text" class="form-input" required placeholder="Имя"> 
+							<span class="error">Введите имя</span>
+							<span class="error-img"> </span>
+							<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+						</div>	
+						<div class="form-item">
+							<input type="text" class="form-input" required placeholder="Телефон"> 
+							<span class="error">Введен некорректный Телефон</span>
+							<span class="error-img"> </span>
+							<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+						</div>									
+						<div class="form-item">
+							<input type="password" class="form-input form-input-pass" required placeholder="Пароль">
+							<span class="error">Введен некорректный Пароль</span>
+							<span class="error-img"> </span>
+							<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+						</div> 						
+						<div class="form-item form-item-checkbox">
+							<input id="agree" type="checkbox">
+							<label for="agree">Даю согласие  </label>   
+							<span class="form-item-checkbox-info">на обработку персональных даных  и согласен с <a href="#" class="form-item-link">правилами</a></span>
+						</div>
+						
+						<div class="form-item form-item-submit">
+							<button  type="submit" value=""  >регистрация</button>
+						</div>
+						<div class="form-bottom-wrap">
+							<span>У вас уже есть аккаунт?</span>
+							<a href="#" class="form-item-link">Войти</a>
+						</div>
+					</div>			
+				</form>	
+			</div>
+		</div>	
+	
+		<div class="popup password-recovery ">
+			<div class="popup-close"></div> 
+			<div class="popup-title">Восстановление пароля</div>
+			<div class="form-wrap">
+				<form action="">  
+					<div class="form-block"> 
+						<div class="form-item error">
+							<input type="text" class="form-input" required placeholder="E-mail">
+							<span class="error">Введен некорректный e-mail</span>
+							<span class="error-img"> </span>
+							<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+						</div> 	 
+						<div class="form-item form-item-submit">
+							<button  type="submit" value=""  >Восстановить</button>
+						</div> 
+					</div>			
+				</form>	
+			</div>
+		</div>	
+	
+		<div class="popup registration-ok ">
+			<div class="popup-close"></div> 
+			<div class="popup-img"><img src="img/registration-ok-img.png" alt=""></div>
+			<div class="popup-subtitle">Регистрация прошла успешно!</div>
+			<div class="popup-title">Поехали!</div>
+			<p>Теперь вы стали участником клуба успешных трейдеров современности! </p>
+			<p class="registration-ok-bottom">Вам доступны бесплатные курсы, а так же  курсы для продвинутых трейдеров на платной основе.</p>
+		</div>
+	
+		<div class="popup review-video ">
+			<div class="popup-close"></div>
+			<div class="popup-top-wrap">
+				<div class="popup-title">Нурлан Сабуров</div>
+				<div class="date"> 
+					16.04.2019
+				</div>			
+			</div> 
+	
+			<div class="popup-img"><img src="img/review-video-popup.png" alt=""></div> 
+		</div>	
+	
+		<div class="popup customer-signal-ok ">
+			<div class="popup-close"></div>  
+			<div class="popup-subtitle">Сигнал ок!</div> 
+			<p>Теперь вы стали участником клуба успешных трейдеров современности! </p>
+			<p class="registration-ok-bottom">Вам доступны бесплатные курсы, а так же  курсы для продвинутых трейдеров на платной основе.</p>
+		</div> 
+	
+		<div class="popup popup-profile   ">
+			<div class="popup-close"></div> 
+			<div class="popup-title">Редактирование профиля</div>
+			<div class="form-wrap">
+				<form action="">  
+					<div class="form-block"> 
+						<div class="form-line">
+							<div class="form-item correct">
+								<input type="text" class="form-input" required placeholder="Имя"> 
+								<span class="error">Введите имя</span>
+								<span class="error-img"> </span>
+								<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+							</div>
+							<div class="form-text">Редактировать Имя</div>
+						</div>
+						<div class="form-line">
+							<div class="form-item">
+								<input type="text" class="form-input" required placeholder="Фамилия"> 
+								<span class="error">Введена некорректная Фамилия</span>
+								<span class="error-img"> </span>
+								<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+							</div>
+							<div class="form-text">Редактировать Фамилию</div>
+						</div>	
+						<div class="form-line">
+							<div class="form-item error">
+								<input type="text" class="form-input" required disabled placeholder="E-mail">
+								<span class="error">Введен некорректный e-mail</span>
+								<span class="error-img"> </span>
+								<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+							</div>
+							<div class="form-text">Изменить почту</div>
+						</div>	
+						<div class="form-line">
+							<div class="form-item">
+								<input type="password" class="form-input form-input-pass" required placeholder="Пароль">
+								<span class="error">Введен некорректный Пароль</span>
+								<span class="error-img"> </span>
+								<span class="correct"><img src="img/check-img-input.png" alt=""></span>
+							</div> 	
+							<div class="form-text">Изменить пароль</div>
+						</div>	
+						<div class="form-line form-line-img">	
+							<div class="form-img">
+								<img src="img/form-img.png" alt="">
+							</div>	
+							<div class="form-text">Изменить фото</div>
+						</div>	 
+						<div class="form-item form-item-submit">
+							<button  type="submit" value=""  >Сохранить</button>
+						</div> 
+					</div>			
+				</form>	
+			</div>
+		</div>
+	
+		<div class="popup popup-admin-posts  visible">
+			<div class="popup-close"></div> 
+			<div class="admin-posts-title">
+				<span>От кого</span>
+			</div>
+			<div class="admin-posts-title">
+				<span class="name">Андрей Кочетков</span>
+			</div>	
+			<div class="admin-posts-title">
+				<span>Сообщение</span>
+			</div>	
+			<div class="admin-posts-item">
+				<span>Финансовые рынки.</span>
+			</div>	
+			<div class="admin-posts-item">
+				<p>Многие молодые люди, не успевшие обзавестись ребенком до 25 лет, сталкиваются с давлением со стороны старших родственников: «Часики тикают! Ребенок сам себя не сделает! Как хочется поскорее стать бабушкой! Я в твои годы уже твоего брата в универ отправляла!» Брайден Томисик и его жена Пэйтон из Юты решили порадовать наседающих родителей фотографиями «типа с ребенком». Только вместо малыша они взяли компрессор. Ему дали имя — Итон!</p>
+			</div>
+			<div class="form-wrap">
+				<form action="">  
+					<div class="form-block"> 
+						<div class="form-line">
+							<div class="form-item form-item--textarea">
+								<textarea placeholder="Текст правок"></textarea>
+							</div>
+						</div>
+						<div class="column">
+							<div class="column-item">
+								<div class="radio__group">
+									<div class=" radio__wrap">
+										<input id="radio1" type="radio" name=" " value=" ">
+										<label for="radio1">Вернуть с правками</label>   
+									</div> 
+									<div class=" radio__wrap">
+										<input id="radio2" type="radio" name=" " value=" ">
+										<label for="radio2">Прошел модерацию</label>   
+									</div>								
+								</div> 
+							</div>
+							<div class="column-item">
+								<div class="form-item form-item-submit">
+									<button  type="submit" value=""  >Отправить</button>
+								</div> 							
+							</div>
+						</div> 
+					</div>			
+				</form>	
+			</div>
+		</div>	
+	</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
+	
+	<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

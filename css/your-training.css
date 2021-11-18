@@ -1,0 +1,65 @@
+.your-training-page  p{
+	font-size: 14px;
+	line-height:  18px;
+	color: #343b43;
+	text-indent: 15px;
+}
+
+.your-training-bottom {
+	margin-top: 30px; 
+	display: flex;
+	justify-content: space-between;
+	align-items:  center;
+}
+
+.your-training-page .layout-content-title {
+	margin-bottom: 15px;	
+}
+.your-training-page .btn,
+.your-training-page .btn.white {
+	max-width: 170px;
+	font-size: 14px;
+}
+
+.your-training-page .btn.white  {
+	margin-right: 10px;
+}
+
+.your-training-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.your-training-item {
+	width: 30%; 
+	box-sizing: border-box; 
+    margin: 0 30px 30px 0;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.05);	
+}
+
+@media(max-width: 1535px) {
+	.your-training-bottom {
+		flex-direction: column;
+	}
+	.your-training-page .btn.white  {
+		margin: 0 0 20px 0;
+	}	
+}
+
+
+@media(max-width: 960px) {
+	.your-training-item	 {
+		width: 45%;
+	}
+}
+
+
+@media(max-width: 656px) {
+	.your-training-item	 {
+		width: 100%;
+		margin-right: 0;
+	}
+}
